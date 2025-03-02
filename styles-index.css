@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Zain&display=swap');
+
+nav{
+    background-color: #549dd8;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flexbox;
+
+    
+  }
+
+li {
+    display: inline;
+    float: left;
+  }
+li a {
+    display: block;
+    color: Black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+li a:hover  {
+    transition: 0.3s ease-in;
+    background-color: #0a4f77;
+  }
+
+.dropbtn:hover .dropdown:hover {
+    transition: 0.3s ease-in;
+    background-color: #0a4f77;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 30px;
+  }
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+.dropdown .dropbtn {
+    font-size: 30px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+body{
+    background-color: aliceblue;
+    font-family: 'Zain', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    overflow:"hidden";
+    margin: 0;
+}
