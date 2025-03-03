@@ -3,6 +3,7 @@
 
 nav{
     background-color: #549dd8;
+
 }
 ul {
     list-style-type: none;
@@ -81,9 +82,11 @@ li a:hover  {
 body{
     background-color: aliceblue;
     font-family: 'Zain', sans-serif;
-    display: flex;
-    justify-content: center;
     height: 100vh;
     overflow:"hidden";
     margin: 0;
+}
+.container {
+    position: relative;
+    width: 100%;
 }

@@ -2,13 +2,15 @@
 
 nav{
     background-color: #549dd8;
+    
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    display: flexbox;
+
+   
 
     
   }
@@ -16,6 +18,7 @@ ul {
 li {
     display: inline;
     float: left;
+    
   }
 li a {
     display: block;
@@ -80,8 +83,6 @@ li a:hover  {
 body{
     background-color: aliceblue;
     font-family: 'Zain', sans-serif;
-    display: flex;
-    justify-content: center;
     height: 100vh;
     overflow:"hidden";
     margin: 0;
