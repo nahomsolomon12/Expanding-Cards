@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+
+html { overflow-y: scroll; overflow-x:hidden; }
+
 :root{
   --left-bg-color: rgba(75, 83, 106, 0.6);
   --right-bg-color: rgba(23, 51, 30, 0.6);

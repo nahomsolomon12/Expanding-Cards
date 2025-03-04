@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Zain&display=swap');
 
+html { overflow-y: scroll; overflow-x:hidden; }
+
 nav{
     background-color: #549dd8;
     
@@ -22,7 +24,7 @@ li {
   }
 li a {
     display: block;
-    color: Black;
+    color: #e0dcdc;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -31,11 +33,13 @@ li a {
 li a:hover  {
     transition: 0.3s ease-in;
     background-color: #0a4f77;
+    color: #f9f9f9;
   }
 
 .dropbtn:hover .dropdown:hover {
     transition: 0.3s ease-in;
     background-color: #0a4f77;
+    color: #f9f9f9;
   }
 
 .dropdown-content {
@@ -81,9 +85,16 @@ li a:hover  {
   }
   
 body{
-    background-color: aliceblue;
+    background-color: rgb(15, 8, 0);
     font-family: 'Zain', sans-serif;
     height: 100vh;
     overflow:"hidden";
     margin: 0;
+}
+
+img {
+  width: 70vh; /* Set the visible area */
+  height: 100vh;
+  object-fit: cover; /* Crops instead of stretching */
+  object-position: center; /* Adjusts focus */
 }
